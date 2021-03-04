@@ -1,0 +1,20 @@
+<Lista>
+    <Nodo nombre="Ejemplo" n=4 m=4>
+        <Ni>A</Ni>
+        <Ni>B</Ni>
+        <Ni>C</Ni>
+        <Ni>D</Ni>
+        <Ni>E</Ni>
+        <Ni>F</Ni>
+        <Ni>A</Ni>
+        <Ni>B</Ni>
+        <Ni>A</Ni>
+        <Ni>B</Ni>
+        <Ni>C</Ni>
+        <Ni>D</Ni>
+        <Ni>E</Ni>
+        <Ni>F</Ni>
+        <Ni>A</Ni>
+        <Ni>B</Ni>
+    </Nodo>
+</Lista>
