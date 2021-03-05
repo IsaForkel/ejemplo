@@ -5,14 +5,14 @@ class MOrtogonal():
         self.Cabecera = None
 
     def Crear(self,filas,columnas,lista):
-        RefAbajo = Nod.Cajita()
-        RefDerecha = Nod.Cajita()
-        for i in range(0,filas):
-            for j in range(0,columnas):
+        RefArriba = Nod.Cajita(None)
+        RefDerecha = Nod.Cajita(None)
+        for i in range(1,filas+1):
+            for j in range(1,columnas+1):
                 nuevo = Nod.Cajita(lista.pop)
                 nuevo.abajo = None
                 nuevo.derecha = None
-                if j == 0:
+                if j == 1:
                     nuevo.derecha = None
                     if self.Cabecera == None:
                         self.Cabecera = nuevo
@@ -29,7 +29,7 @@ class MOrtogonal():
                     RefArriba.abajo = nuevo
                     RefArriba = RefArriba.derecha
             RefArriba = self.Cabecera
-            while RefArriba.abajo != None:
+            while RefArriba.abajo is not None:
                 RefArriba = RefArriba.abajo
 
     def Buscar(self):

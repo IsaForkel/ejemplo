@@ -1,9 +1,10 @@
 
-class Cajita():
+class Nodox():
 
     def __init__(self,dato):
         self.dato = dato
-        self.derecha = None
-        self.izquierda = None
         self.arriba = None
         self.abajo = None
+        self.siguiente = None
+        self.anterior = None
+
